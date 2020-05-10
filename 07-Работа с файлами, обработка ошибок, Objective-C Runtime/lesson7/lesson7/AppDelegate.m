@@ -16,30 +16,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSLog(@"успешный запуск");
+    // Override point for customization after application launch.
     return YES;
 }
 
-- (void)applicationWillResignActive:(UIApplication *)application {
-    NSLog(@"переход в неактивное состояние");
-}
-
-- (void)applicationDidBecomeActive:(UIApplication *)application {
-    NSLog(@"переход в активное состояние");
-}
-
-- (void)applicationDidEnterBackground:(UIApplication *)application {
-    NSLog(@"переход в background");
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application {
-    NSLog(@"переход в foreground");
-}
-
-
-- (void)applicationWillTerminate:(UIApplication *)application {
-    NSLog(@"app terminate");
-}
 
 #pragma mark - UISceneSession lifecycle
 
