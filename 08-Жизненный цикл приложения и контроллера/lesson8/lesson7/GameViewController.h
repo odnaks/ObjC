@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GameViewController.h
 //  lesson7
 //
 //  Created by 18450686 on 08.05.2020.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface GameViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
